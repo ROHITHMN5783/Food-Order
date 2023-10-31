@@ -1,0 +1,66 @@
+.menu2 {
+  background-color: aliceblue;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.menu3 {
+  background-color: rgb(168, 204, 240);
+  border-radius: 20px;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 15px;
+  
+  margin: 30px;
+  
+  cursor: pointer;
+}
+.price {
+  border-radius: 30px;
+  background-color: aliceblue;
+  color: red;
+}
+.foodmenu {
+  width: 330px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 260px;
+}
+.addtocart {
+  border-radius: 30px;
+  cursor: pointer;
+  height: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: 200px;
+}
+.addtocart:hover {
+  transform: scale(1.1);
+  background-color: yellow;
+}
+@media(max-width:700px){
+    .menu3 {
+        background-color: rgb(168, 204, 240);
+        border-radius: 20px;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        padding: 15px;
+        margin-left: 50px;
+        cursor: pointer;
+      }
+      .foodmenu {
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 260px;
+      }
+}

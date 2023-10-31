@@ -1,0 +1,135 @@
+.nav1 {
+  background-color: rgb(149, 187, 219);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  margin: 40px;
+  list-style: none;
+}
+.active {
+  color: yellow;
+}
+.theme {
+  border-radius: 20px;
+  height: 30px;
+  font-weight: bolder;
+  width: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: medium;
+}
+.theme:hover {
+  background-color: coral;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+.login {
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: medium;
+}
+.login:hover {
+  background-color: royalblue;
+}
+.cart:hover {
+  background-color: red;
+}
+.tag {
+  margin-left: 35px;
+  font-weight: bolder;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.cart {
+  border-radius: 20px;
+  height: 30px;
+  font-weight: bolder;
+  width: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: medium;
+}
+.log {
+  width: 50px;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 140px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 55px;
+}
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+  }
+  .tag{
+    margin: 5px;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav4 {
+    display: none;
+    flex-direction: column;
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .login,.theme,
+  .cart {
+    margin: 10px 0;
+  }
+}

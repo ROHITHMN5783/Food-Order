@@ -1,0 +1,83 @@
+.form {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 20px;
+  background-color: rgb(141, 165, 185);
+  padding: 5px;
+  height: 500px;
+}
+.logins {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.input1 {
+  border-radius: 20px;
+  width: 40%;
+  height: 38px;
+  margin-top: 10px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: large;
+}
+.loginbtn {
+  border-radius: 20px;
+  width: 20%;
+  height: 45px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+.create {
+  border-radius: 20px;
+  width: 25%;
+  height: 33px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: medium;
+  margin-top: 20px;
+}
+.loginbtn:hover {
+  background-color: rgb(27, 226, 27);
+  cursor: pointer;
+}
+.create:hover {
+  background-color: dodgerblue;
+  color: red;
+  cursor: pointer;
+}
+.forgot:hover {
+  color: red;
+}
+.forgot {
+  font-size: medium;
+}
+
+@media (max-width: 700px) {
+  .form {
+    font-weight: 500;
+    font-size: large;
+  }
+  .input1 {
+    font-size: large;
+    font-weight: 400;
+  }
+  .loginbtn {
+    width: 100px;
+    font-weight: 700;
+  }
+  .create {
+    font-weight: 500;
+    font-size: smaller;
+    width: 200px;
+    height: 42px;
+  }
+  .forgot {
+  }
+}
